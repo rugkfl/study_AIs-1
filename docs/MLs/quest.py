@@ -74,4 +74,4 @@ c = np.array([[7, 8, 9], [10, 11, 12]])
 a = a[np.newaxis]
 b = b[np.newaxis]
 answer_five = np.concatenate((a,b,c),axis=0)
-print(answer_five)
+print("문제 5: {}".format(answer_five))
